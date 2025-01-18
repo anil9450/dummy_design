@@ -12,9 +12,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white text-gray-500 shadow-sm">
+    <nav className="bg-white shadow-sm fixed z-50 top-0 right-0 left-0">
       <div className="mx-auto sm:w-3/4 px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-16 text-gray-600">
           {/* Left section: Icons */}
           <div className="flex items-center space-x-4">
             <Image
@@ -37,7 +37,7 @@ const Navbar = () => {
           </div>
 
           {/* Right section: Menu */}
-          <div className="hidden md:flex items-center space-x-10 font-bold">
+          <div className="hidden md:flex items-center space-x-10 font-bold text-sm">
             <Link
               href="/services"
               className="hover:text-blue-500 hover:scale-105 transition-transform duration-300"
@@ -60,9 +60,9 @@ const Navbar = () => {
               href="/other"
               className="hover:text-blue-500 hover:scale-105 transition-transform duration-300"
             >
-              Others
+              Other
             </Link>
-            <button className="bg-blue-900 text-white p-1 rounded">
+            <button className="bg-blue-900 text-white p-2 rounded">
               REQUEST A QUOTE
             </button>
           </div>
@@ -85,10 +85,10 @@ const Navbar = () => {
 
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden bg-white text-gray-500 font-bold">
+        <div className="md:hidden text-gray-600 font-bold text-sm">
           <Link
             href="/services"
-            className="block px-4 py-2 hover:bg-gray-800 hover:text-blue-500 hover:scale-105 transition-transform duration-300"
+            className="block px-4 py-2 hover:bg-gray-800 hover:text-blue-500"
           >
             Services
           </Link>
@@ -108,9 +108,9 @@ const Navbar = () => {
             href="/other"
             className="block px-4 py-2 hover:bg-gray-800 hover:text-blue-500 hover:scale-105 transition-transform duration-300"
           >
-            Others
+            Other
           </Link>
-          <button className="bg-blue-900 text-white p-1 rounded mt-2">
+          <button className="bg-blue-900 text-white p-2 rounded mt-2">
             REQUEST A QUOTE
           </button>
         </div>

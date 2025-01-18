@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="mx-auto sm:w-3/4 px-4 py-4 gap-8">
+    <div className="mx-auto sm:w-3/4 px-4 py-4 gap-8 overflow-auto mt-28">
       <h1 className="text-blue-900 text-lg text-center font-bold">
         Introduction
       </h1>
@@ -31,7 +31,7 @@ const Hero = () => {
           />
         </div>
 
-        <div className="w-full lg:w-1/2 lg:pl-8 lg:mt-0">
+        <div className="w-full lg:w-1/2 lg:pl-8 lg:pr-8">
           <h1 className="text-lg font-bold text-blue-900 ">
             Enhanced Visualization
           </h1>
@@ -59,7 +59,7 @@ const Hero = () => {
             left half contains an image, and the right half features a
             paragraph.
           </p>
-          <p className="text-gray-700 text-xs">
+          <p className="text-gray-700 text-xs mt-2">
             paragraph. The layout adjusts seamlessly to different screen sizes,
             ensuring a great user experience on all devices. paragraph. The
             layout adjusts seamlessly to different screen sizes, ensuring a

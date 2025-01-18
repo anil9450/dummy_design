@@ -1,13 +1,21 @@
 import React from "react";
 import Link from "next/link";
 import { FaArrowRotateLeft } from "react-icons/fa6";
+import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-900 text-gray-500">
+    <footer className="bg-customBlue text-gray-500">
       <div className="mx-auto sm:w-3/4 px-4 sm:px-6 lg:px-8 py-8 flex justify-between flex-wrap gap-8">
         {/* Logo Section */}
-        <div className="mt-2">
+        <div>
+          <Image
+            src="/footer_logo.png" // Path to your image
+            alt="Example Image" // Alternative text for accessibility
+            width={200} // Display width in pixels
+            height={100} // Display height in pixels
+          />
+          {/* 
           <Link href="/" className="flex items-center space-x-2">
             <span className="">
               <FaArrowRotateLeft />
@@ -17,6 +25,7 @@ const Footer = () => {
               <p className="tracking-[.22em] text-blue-400">SOLUTIONS</p>
             </span>
           </Link>
+          */}
         </div>
 
         {/* Important Links */}

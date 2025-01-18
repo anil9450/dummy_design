@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { FaArrowRotateLeft } from "react-icons/fa6";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,15 +18,23 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Left section: Icons */}
           <div className="flex items-center space-x-4">
+            <Image
+              src="/kds_logo.png" // Path to your image
+              alt="Example Image" // Alternative text for accessibility
+              width={200} // Display width in pixels
+              height={100} // Display height in pixels
+            />
+            {/* 
             <Link href="/" className="flex items-center space-x-2">
               <span className="">
                 <FaArrowRotateLeft />
               </span>
               <span className="md:inline-block font-bold text-lg">
-                <p className="text-blue-900">KEY DYNAMICS</p>
+                <p className="text-customBlue">KEY DYNAMICS</p>
                 <p className="tracking-[.22em] text-blue-400">SOLUTIONS</p>
               </span>
             </Link>
+            */}
           </div>
 
           {/* Right section: Menu */}
@@ -54,7 +63,7 @@ const Navbar = () => {
             >
               Others
             </Link>
-            <button className="bg-blue-900 text-white p-1 rounded">
+            <button className="bg-customBlue text-white p-1 rounded">
               REQUEST A QUOTE
             </button>
           </div>
@@ -102,7 +111,7 @@ const Navbar = () => {
           >
             Others
           </Link>
-          <button className="bg-blue-900 text-white p-1 rounded mt-2">
+          <button className="bg-customBlue text-white p-1 rounded mt-2">
             REQUEST A QUOTE
           </button>
         </div>

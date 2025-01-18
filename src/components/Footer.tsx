@@ -1,6 +1,4 @@
 import React from "react";
-import Link from "next/link";
-import { FaArrowRotateLeft } from "react-icons/fa6";
 import Image from "next/image";
 
 const Footer = () => {
@@ -10,10 +8,10 @@ const Footer = () => {
         {/* Logo Section */}
         <div>
           <Image
-            src="/footer_logo.png" // Path to your image
-            alt="Example Image" // Alternative text for accessibility
-            width={200} // Display width in pixels
-            height={100} // Display height in pixels
+            src="/footer_logo.png"
+            alt="Example Image"
+            width={200}
+            height={100}
           />
           {/* 
           <Link href="/" className="flex items-center space-x-2">

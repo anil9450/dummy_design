@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { FaArrowRotateLeft } from "react-icons/fa6";
 import Image from "next/image";
 
 const Navbar = () => {
@@ -19,10 +18,10 @@ const Navbar = () => {
           {/* Left section: Icons */}
           <div className="flex items-center space-x-4">
             <Image
-              src="/kds_logo.png" // Path to your image
-              alt="Example Image" // Alternative text for accessibility
-              width={200} // Display width in pixels
-              height={100} // Display height in pixels
+              src="/kds_logo.png"
+              alt="Example Image"
+              width={200}
+              height={100}
             />
             {/* 
             <Link href="/" className="flex items-center space-x-2">
@@ -63,7 +62,7 @@ const Navbar = () => {
             >
               Others
             </Link>
-            <button className="bg-customBlue text-white p-1 rounded">
+            <button className="bg-blue-900 text-white p-1 rounded">
               REQUEST A QUOTE
             </button>
           </div>
@@ -111,7 +110,7 @@ const Navbar = () => {
           >
             Others
           </Link>
-          <button className="bg-customBlue text-white p-1 rounded mt-2">
+          <button className="bg-blue-900 text-white p-1 rounded mt-2">
             REQUEST A QUOTE
           </button>
         </div>

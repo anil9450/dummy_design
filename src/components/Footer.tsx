@@ -13,7 +13,7 @@ const Footer = () => {
             width={200}
             height={100}
           />
-          {/* 
+          {/*
           <Link href="/" className="flex items-center space-x-2">
             <span className="">
               <FaArrowRotateLeft />

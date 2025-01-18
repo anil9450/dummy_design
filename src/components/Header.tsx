@@ -85,7 +85,7 @@ const Navbar = () => {
 
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden text-gray-600 font-bold text-sm">
+        <div className="md:hidden text-gray-600 font-bold text-sm bg-blue-100">
           <Link
             href="/services"
             className="block px-4 py-2 hover:bg-gray-800 hover:text-blue-500"

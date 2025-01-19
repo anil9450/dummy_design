@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 import Link from "next/link";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footerex = () => {
   return (
@@ -12,7 +13,7 @@ const Footerex = () => {
             &copy; {new Date().getFullYear()} - All Rights Reserved Key Dynamics
             Solutions LTD | Designed by Zen
           </p>
-          <p>Webnet</p>
+          <p className="text-center sm:text-justify">Webnet</p>
         </div>
 
         {/* Right Section */}
@@ -27,6 +28,7 @@ const Footerex = () => {
           >
             <FaFacebookF />
           </Link>
+
           <Link
             href="https://twitter.com"
             aria-label="Twitter"
@@ -35,8 +37,9 @@ const Footerex = () => {
             rel="noopener noreferrer"
             className="hover:text-blue-400"
           >
-            <FaTwitter />
+            <FaXTwitter />
           </Link>
+
           <Link
             href="https://instagram.com"
             aria-label="Instagram"
@@ -47,6 +50,7 @@ const Footerex = () => {
           >
             <FaInstagram />
           </Link>
+
           <Link
             href="https://youtube.com"
             aria-label="YouTube"

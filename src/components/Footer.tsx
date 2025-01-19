@@ -50,13 +50,15 @@ const Footer = () => {
               placeholder="Enter your phone number"
               className="w-full p-2 rounded bg-blue-600 text-white"
             />
+          </form>
+          <div className="mt-4">
             <button
               type="submit"
-              className="bg-gray-500 text-white p-2 rounded"
+              className="bg-gray-500 text-white p-2 rounded mt-4"
             >
               Sign up Now
             </button>
-          </form>
+          </div>
         </div>
       </div>
     </footer>

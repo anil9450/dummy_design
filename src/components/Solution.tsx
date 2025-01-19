@@ -67,7 +67,7 @@ const Solution = () => {
               alt="Power BI Hero"
               width={300}
               height={150}
-              className="rounded"
+              className="rounded mt-2 sm:mt-0"
             />
             <h2 className="text-lg font-semibold mt-4">
               User Training and Adoption

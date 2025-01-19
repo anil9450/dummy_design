@@ -13,17 +13,6 @@ const Footer = () => {
             width={200}
             height={100}
           />
-          {/*
-          <Link href="/" className="flex items-center space-x-2">
-            <span className="">
-              <FaArrowRotateLeft />
-            </span>
-            <span className="md:inline-block font-bold text-lg">
-              <p className="text-white">KEY DYNAMICS</p>
-              <p className="tracking-[.22em] text-blue-400">SOLUTIONS</p>
-            </span>
-          </Link>
-          */}
         </div>
 
         {/* Important Links */}

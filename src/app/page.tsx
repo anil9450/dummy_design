@@ -1,3 +1,4 @@
+import Conclusion from "@/components/Conclusion";
 import Hero from "@/components/Hero";
 import Heropart from "@/components/Heropart";
 import Migration from "@/components/Migration";
@@ -10,6 +11,7 @@ export default function Home() {
       <Heropart />
       <Migration />
       <Solution />
+      <Conclusion />
     </div>
   );
 }

@@ -4,7 +4,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div className="mx-auto sm:w-3/4 px-4 py-4 gap-8 overflow-auto mt-16 sm:mt-28">
-      <div className="shadow-lg rounded p-2">
+      <div>
         <h1 className="text-blue-900 text-lg text-center font-bold">
           Introduction
         </h1>
@@ -22,10 +22,10 @@ const Hero = () => {
         </p>
       </div>
 
-      <div className="flex flex-col lg:flex-row p-4 sm:mt-12">
+      <div className="flex flex-col lg:flex-row sm:mt-12">
         <div className="w-full lg:w-1/2">
           <Image
-            src="/power-bi-hero.jpg"
+            src="/image-ins-rmbg.png"
             alt="Example Image"
             width={500}
             height={250}
@@ -33,7 +33,7 @@ const Hero = () => {
           />
         </div>
 
-        <div className="w-full lg:w-1/2 lg:pl-8 lg:pr-8 shadow-lg rounded p-2 mt-2">
+        <div className="w-full lg:w-1/2 lg:pl-16 lg:pr-24 mt-16">
           <h1 className="text-lg font-bold text-blue-900 mt-2">
             Enhanced Visualization
           </h1>

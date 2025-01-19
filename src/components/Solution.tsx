@@ -5,7 +5,7 @@ const Solution = () => {
   return (
     <div className="mx-auto sm:w-3/4 px-4 sm:px-6 lg:px-8 mt-8">
       <div className="px-4 py-4 sm:py-24 bg-yellow-100">
-        <div className="shadow-lg rounded p-2">
+        <div>
           <h1 className="text-center text-blue-900 text-lg">
             Solution Implemented
           </h1>
@@ -26,10 +26,10 @@ const Solution = () => {
           {/* First Section */}
           <div className="flex-1 max-w-md flex flex-col items-center">
             <Image
-              src="/power-bi-hero.jpg"
+              src="/post-4-rmbg.png"
               alt="Power BI Hero"
-              width={300}
-              height={150}
+              width={200}
+              height={100}
               className="rounded mt-4"
             />
             <h2 className="text-lg font-semibold mt-4">
@@ -46,11 +46,11 @@ const Solution = () => {
 
           {/* Vertical Divider with Circular Image */}
           <div className="relative hidden md:flex items-center mx-8">
-            <div className="w-0.5 h-[300px] bg-gray-300"></div>
+            <div className="w-0.5 h-[400px] bg-gray-300"></div>
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
               <div className="w-24 h-24 bg-white rounded-full p-1 shadow-lg">
                 <Image
-                  src="/images.png"
+                  src="/post3-1-rmbg.png"
                   alt="Circular Image"
                   width={96} // Responsive size, you can adjust this
                   height={96}
@@ -63,7 +63,7 @@ const Solution = () => {
           {/* Second Section */}
           <div className="flex-1 max-w-md flex flex-col items-center">
             <Image
-              src="/power-bi-hero.jpg"
+              src="/post2-rmbg.png"
               alt="Power BI Hero"
               width={300}
               height={150}

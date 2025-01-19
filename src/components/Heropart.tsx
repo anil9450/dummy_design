@@ -5,7 +5,7 @@ const Heropart = () => {
   return (
     <div className="px-4 py-4 sm:py-24 bg-yellow-100">
       <div className="mx-auto sm:w-11/12 md:w-3/4 lg:w-2/3 flex flex-col lg:flex-row items-center lg:items-start gap-8">
-        <div className="w-full lg:w-1/2 lg:-ml-12 shadow-lg rounded p-2">
+        <div className="w-full lg:w-1/2 lg:-ml-12">
           <h1 className="text-3xl sm:text-4xl font-semibold text-gray-800">
             <span className="bg-yellow-200 p-1 text-lg sm:text-2xl">
               Current State
@@ -21,16 +21,17 @@ const Heropart = () => {
             <span className="text-amber-500">compliance reports</span>.
           </p>
 
-          <p className="text-xs text-justify">
+          <p className="text-xs text-justify mt-4">
             Tailwind CSS makes it easy to create responsive layouts with its
             utility-first approach.ailwind CSS makes it easy to create
             responsive layouts with its utility-first.
           </p>
 
-          <p className="text-xs mt-4 text-justify">
+          <p className="text-xs mt-6 text-justify">
             Tailwind CSS makes it easy to create responsive layouts with its
             utility-first approach. This example showcases a layout where the
             left half contains an image, and the right half features a
+            paragraph.left half contains an image, and the right half features a
             paragraph.left half contains an image, and the right half features a
             paragraph.
           </p>
@@ -38,10 +39,10 @@ const Heropart = () => {
 
         <div className="w-full lg:w-1/2 lg:ml-4">
           <Image
-            src="/power-bi-hero.jpg"
+            src="/post-1-rmbg.png"
             alt="Power BI Dashboard Example"
-            width={600}
-            height={300}
+            width={200}
+            height={100}
             className="rounded-lg shadow-lg w-full object-cover"
           />
         </div>

@@ -13,7 +13,7 @@ const Migration = () => {
         <div className="flex flex-col items-center bg-amber-200 w-full h-48 rounded-lg shadow-lg p-6">
           <div className="w-24 h-24 rounded-full bg-white flex items-center justify-center overflow-hidden">
             <Image
-              src="/images.png"
+              src="/post-icon-1.png"
               alt="Assessment and Planning"
               width={96}
               height={96}
@@ -27,7 +27,7 @@ const Migration = () => {
         <div className="flex flex-col items-center bg-amber-100 w-full h-48 rounded-lg shadow-lg p-6">
           <div className="w-24 h-24 rounded-full bg-white flex items-center justify-center overflow-hidden">
             <Image
-              src="/images.png"
+              src="/post-icon-2.png"
               alt="Tools and Techniques"
               width={96}
               height={96}
@@ -41,7 +41,7 @@ const Migration = () => {
         <div className="flex flex-col items-center bg-amber-100 w-full h-48 rounded-lg shadow-lg p-6">
           <div className="w-24 h-24 rounded-full bg-white flex items-center justify-center overflow-hidden">
             <Image
-              src="/images.png"
+              src="/post-icon-3.png"
               alt="Data Mapping & Transformation"
               width={96}
               height={96}
@@ -53,7 +53,7 @@ const Migration = () => {
         </div>
       </div>
 
-      <p className="mt-8 text-justify text-xs shadow-lg rounded p-2">
+      <p className="mt-8 text-justify text-xs">
         A migration strategy is essential for organizations transitioning to new
         systems, platforms, or technologies. It involves careful assessment,
         planning, and execution to ensure minimal disruption and maximum
@@ -66,11 +66,12 @@ const Migration = () => {
       </p>
 
       <div>
-        <h1 className="mt-2 text-center text-4xl sm:text-5xl md:text-6xl lg:text-8xl xl:text-9xl text-gray-300">
+        <h1 className="relative mt-2 text-center text-4xl sm:text-5xl md:text-6xl lg:text-8xl xl:text-9xl text-gray-300">
           CHALLENGES
+          <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full h-10 bg-white"></span>
         </h1>
 
-        <div className="mt-2 bg-gray-100 rounded p-4 w-full shadow-lg">
+        <div className="mt-2 bg-gray-100 p-2 w-full">
           <h2 className="text-blue-900 text-center font-bold">
             SSRS and Power BI handle report formatting differently.
           </h2>

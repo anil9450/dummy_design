@@ -5,7 +5,7 @@ const Conclusion = () => {
   return (
     <div className="mx-auto sm:w-3/4 px-4 sm:px-6 lg:px-8">
       <div className="px-4 py-4 sm:py-24">
-        <div className="shadow-lg rounded p-2">
+        <div>
           <h1 className="text-center text-blue-900 text-lg">Our</h1>
           <h1 className="text-amber-500 text-center text-3xl">Conclusion</h1>
           <p className="text-xs mt-4 text-justify">
@@ -24,7 +24,7 @@ const Conclusion = () => {
           <h1 className="text-gray-500">As we continue to utilize</h1>
           <h1 className="flex items-center justify-center">
             <Image
-              src="/logo_bi.png"
+              src="/icon-4-1.jpg"
               alt="Example Image"
               width={50}
               height={25}
@@ -32,7 +32,7 @@ const Conclusion = () => {
             <span className="ml-4">Power BI</span>
           </h1>
 
-          <div className="shadow-lg p-2">
+          <div>
             <p className="text-xs mt-4 text-justify">
               notes weaving through the crisp, fresh air. The dew on grass
               glistens like tiny diamonds, and the faint aroma of blooming

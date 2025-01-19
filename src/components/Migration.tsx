@@ -53,7 +53,7 @@ const Migration = () => {
         </div>
       </div>
 
-      <p className="mt-8 text-justify text-xs">
+      <p className="mt-8 text-justify text-xs shadow-lg rounded p-2">
         A migration strategy is essential for organizations transitioning to new
         systems, platforms, or technologies. It involves careful assessment,
         planning, and execution to ensure minimal disruption and maximum
@@ -66,11 +66,11 @@ const Migration = () => {
       </p>
 
       <div>
-        <h1 className="text-center text-4xl sm:text-5xl md:text-6xl lg:text-8xl xl:text-9xl text-gray-300">
+        <h1 className="mt-2 text-center text-4xl sm:text-5xl md:text-6xl lg:text-8xl xl:text-9xl text-gray-300">
           CHALLENGES
         </h1>
 
-        <div className=" bg-gray-100 rounded p-4 w-full">
+        <div className="mt-2 bg-gray-100 rounded p-4 w-full shadow-lg">
           <h2 className="text-blue-900 text-center font-bold">
             SSRS and Power BI handle report formatting differently.
           </h2>

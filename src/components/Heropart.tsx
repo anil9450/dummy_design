@@ -5,7 +5,7 @@ const Heropart = () => {
   return (
     <div className="px-4 py-4 sm:py-24 bg-yellow-100">
       <div className="mx-auto sm:w-11/12 md:w-3/4 lg:w-2/3 flex flex-col lg:flex-row items-center lg:items-start gap-8">
-        <div className="w-full lg:w-1/2 lg:-ml-12">
+        <div className="w-full lg:w-1/2 lg:-ml-12 shadow-lg rounded p-2">
           <h1 className="text-3xl sm:text-4xl font-semibold text-gray-800">
             <span className="bg-yellow-200 p-1 text-lg sm:text-2xl">
               Current State
@@ -36,7 +36,7 @@ const Heropart = () => {
           </p>
         </div>
 
-        <div className="w-full lg:w-1/2 lg:ml-20">
+        <div className="w-full lg:w-1/2 lg:ml-4">
           <Image
             src="/power-bi-hero.jpg"
             alt="Power BI Dashboard Example"

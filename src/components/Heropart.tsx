@@ -22,18 +22,16 @@ const Heropart = () => {
           </p>
 
           <p className="text-xs text-justify mt-4">
-            Tailwind CSS makes it easy to create responsive layouts with its
-            utility-first approach.ailwind CSS makes it easy to create
-            responsive layouts with its utility-first.
+            SSRS offers features like tabular and matrix reports, user
+            parameters, scheduled delivery, and data drill-down.
           </p>
 
           <p className="text-xs mt-6 text-justify">
-            Tailwind CSS makes it easy to create responsive layouts with its
-            utility-first approach. This example showcases a layout where the
-            left half contains an image, and the right half features a
-            paragraph.left half contains an image, and the right half features a
-            paragraph.left half contains an image, and the right half features a
-            paragraph.
+            However, SSRS has limitations such as limited interactivity,
+            outdated interfaces, complex design, integration issues, and
+            scalability problems. To overcome these are migrating to Power BI.
+            Power BI’s modern, interactive interface and real-time data features
+            will address these issues and improve reporting capabilitie
           </p>
         </div>
 

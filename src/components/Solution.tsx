@@ -12,13 +12,14 @@ const Solution = () => {
           <h1 className="text-amber-500 text-center text-3xl">
             Delivered by Our Company
           </h1>
-          <p className="text-xs">
-            The serene beauty of a quiet morning is unparalleled. As the golden
-            rays of the rising sun gently kiss the earth, the world seems to
-            pause in peaceful reflection. Birds sing melodious tunes, their
-            notes weaving through the crisp, fresh air. The dew on grass
-            glistens like tiny diamonds, and the faint aroma of blooming flowers
-            fills the senses with delight.
+          <p className="text-xs text-justify">
+            To fix visual issues, we used Power BI’s custom visuals library and
+            developed new ones when needed. We redesigned reports to take
+            advantage of Power BI’s interac- tive dashboards and
+          </p>
+          <p className="text-xs sm:text-center text-justify">
+            dynamic filters, focusing on how to present information more
+            effectively and enhance usability.
           </p>
         </div>
 
@@ -28,19 +29,18 @@ const Solution = () => {
             <Image
               src="/post-4-rmbg.png"
               alt="Power BI Hero"
-              width={200}
-              height={100}
+              width={250}
+              height={125}
               className="rounded mt-4"
             />
             <h2 className="text-lg font-semibold mt-4">
               Benefits of Migration
             </h2>
             <p className="mt-2 px-2 text-xs text-justify">
-              The serene beauty of a quiet morning is unparalleled. As the
-              golden rays of the rising sun gently kiss the earth, the world
-              seems to pause in peaceful reflection.The serene beauty of a quiet
-              morning is unparalleled. As the golden rays of the rising sun
-              gently kiss the earth.
+              Power BI provides advanced visuals like interactive charts and
+              custom dashboards. It’s easier to use and accessible on mobile
+              devices. It also offers Al-driven insights and real-time data up-
+              dates.
             </p>
           </div>
 
@@ -73,10 +73,9 @@ const Solution = () => {
               User Training and Adoption
             </h2>
             <p className="text-justify mt-2 px-2 text-xs">
-              The serene beauty of a quiet morning is unparalleled. As the
-              golden rays of the rising sun gently kiss the earth, the world
-              seems to pause in peaceful reflection.seems to pause in peaceful
-              reflection.
+              We provided extensive training for users to help them adapt to
+              Power BI and set up support and feedback systems to ensure a
+              smooth transition.
             </p>
           </div>
         </div>

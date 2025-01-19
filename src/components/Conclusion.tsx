@@ -9,14 +9,14 @@ const Conclusion = () => {
           <h1 className="text-center text-blue-900 text-lg">Our</h1>
           <h1 className="text-amber-500 text-center text-3xl">Conclusion</h1>
           <p className="text-xs mt-4 text-justify">
-            The serene beauty of a quiet morning is unparalleled. As the golden
-            rays of the rising sun gently kiss the earth, the world seems to
-            pause in peaceful reflection. Birds sing melodious tunes.
+            The migration to Power BI has effectively modernized our reporting
+            infrastructure. We now benefit from improved data visualization,
+            with more dynamic and interac- tive charts and dashboards that
           </p>
           <p className="text-xs sm:text-center text-justify">
-            notes weaving through the crisp, fresh air. The dew on grass
-            glistens like tiny diamonds, and the faint aroma of blooming flowers
-            fills the senses with delight.
+            {" "}
+            enhance user experience. This upgrade allows for more intuitive data
+            exploration and better insights.
           </p>
         </div>
 
@@ -33,16 +33,10 @@ const Conclusion = () => {
           </h1>
 
           <div>
-            <p className="text-xs mt-4 text-justify">
-              notes weaving through the crisp, fresh air. The dew on grass
-              glistens like tiny diamonds, and the faint aroma of blooming
-              flowers fills the senses with delight. notes weaving through the
-              crisp.
-            </p>
-            <p className="sm:text-center text-justify text-xs">
-              {" "}
-              fresh air. The dew on grass glistens like tiny diamonds, and the
-              faint aroma of blooming flowers fills the senses with delight.
+            <p className="text-xs mt-4 text-justify sm:text-center">
+              we are excited about the opportunities it presents for advanced
+              reporting and analytics, and we look forward to fully leveraging
+              its capabilities to meet our future reporting needs.
             </p>
           </div>
         </div>

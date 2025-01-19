@@ -33,38 +33,37 @@ const Hero = () => {
           />
         </div>
 
-        <div className="w-full lg:w-1/2 lg:pl-16 lg:pr-24 mt-16">
+        <div className="w-full lg:w-1/2 lg:pl-16 lg:pr-24 sm:mt-16">
           <h1 className="text-lg font-bold text-blue-900 mt-2">
             Enhanced Visualization
           </h1>
           <p className="text-gray-700 text-xs text-justify">
-            Tailwind CSS makes it easy to create responsive layouts with its
-            utility-first approach. This example showcases a layout where the
-            left half contains an image, and the right half features a
+            Power BI’s advanced, interactive visuals will make data easier to
+            understand, helping us create more engaging reports for better
+            decision-making.
           </p>
 
           <h1 className="text-lg font-bold text-blue-900 mt-8">
             User-Friendly Experience
           </h1>
           <p className="text-gray-700 text-xs text-justify">
-            Tailwind CSS makes it easy to create responsive layouts with its
-            utility-first approach. This example showcases a layout where the
-            left half contains an image, and the right half features a
+            Power BI’s intuitive interface and interactive features will
+            simplify data interaction, allowing us to customize reports and gain
+            insights more quickly.
           </p>
 
           <h1 className="text-lg font-bold text-blue-900 mt-8">
             Scalibility & Flexibility
           </h1>
           <p className="text-gray-700 text-xs text-justify">
-            Tailwind CSS makes it easy to create responsive layouts with its
-            utility-first approach. This example showcases a layout where the
-            left half contains an image, and the right half features a
-            paragraph.
+            Power BI’s cloud-based platform will make it easier to update and
+            expand our reporting system, ensuring it can handle growing data and
+            user needs in the future.
           </p>
           <p className="text-gray-700 text-xs mt-2 text-justify">
-            paragraph. The layout adjusts seamlessly to different screen sizes,
-            ensuring a great user experience on all devices. paragraph. The
-            layout adjusts seamlessly to different screen sizes, ensuring.
+            By achieving these goals, aim to significantly improve reports,
+            boost user satisfaction, and enhance decision-making across the
+            organization.
           </p>
         </div>
       </div>

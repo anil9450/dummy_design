@@ -54,21 +54,21 @@ const Migration = () => {
       </div>
 
       <p className="mt-8 text-justify text-xs">
-        A migration strategy is essential for organizations transitioning to new
-        systems, platforms, or technologies. It involves careful assessment,
-        planning, and execution to ensure minimal disruption and maximum
-        efficiency. Key steps include evaluating current processes, identifying
-        potential risks, and creating a roadmap for seamless integration.
-        Leveraging tools and techniques, businesses can optimize data mapping,
-        transformation, and validation. Effective communication among
-        stakeholders ensures clarity and alignment throughout the migration
-        process.
+        The Migration process started by listing all existing SSRS reports,
+        noting their types, how often they are used, and their importance to the
+        business. Also reviewed each report’s key features, like data sources,
+        parameters, and formats. Then documented what need from the new Power BI
+        reports, including visualizations, interactive features, and any special
+        functions. We set clear goals for the Power BI migration, such as better
+        interactivity, improved data visualization, and real-time data access.
+        Also defined how measure success, focusing on user satisfaction, report
+        accu- racy, and performance improvements.
       </p>
 
-      <div>
-        <h1 className="relative mt-2 text-center text-4xl sm:text-5xl md:text-6xl lg:text-8xl xl:text-9xl text-gray-300">
+      <div className="mt-8">
+        <h1 className="hidden sm:block relative mt-2 text-center text-4xl sm:text-5xl md:text-6xl lg:text-8xl xl:text-9xl text-gray-300">
           CHALLENGES
-          <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full h-10 bg-white"></span>
+          <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full h-12 sm:h-10 bg-white"></span>
         </h1>
 
         <div className="mt-2 bg-gray-100 p-2 w-full">
@@ -76,17 +76,23 @@ const Migration = () => {
             SSRS and Power BI handle report formatting differently.
           </h2>
           <p className="text-xs mt-4 text-justify">
-            A migration strategy is essential for organizations transitioning to
-            new systems, platforms, or technologies. It involves careful
-            assessment, planning, and execution ensure minimal disruption and
-            maximum efficiency with assessment, planning, and execution.
+            SSRS and Power BI handle report formatting differently. Recreating
+            complex layouts and visual styles from SSRS in Power BI required
+            major adjustments. Some detailed tables and multi-level
+          </p>
+          <p className="text-justify text-xs sm:text-center">
+            groupings had no direct equivalents in Power BI, so we had to
+            rethink or simplify these elements
           </p>
           <p className="mt-4 text-xs text-justify">
-            Effective communication among stakeholders ensures clarity and
-            alignment throughout the migration process. It is important to
-            address these differences early in the planning phase to ensure that
-            the formatting.planning phase to ensure that the formatting is
-            properly migrated across platforms.
+            Certain custom visuals and intricate formats from SSRS didn’t exist
+            in Power BI, so we either found alternatives or created custom
+            visuals. We also encountered inconsistencies in data aggrega- tion
+          </p>
+          <p className="sm:text-center text-xs text-justify">
+            and calculations during the transition. This required revising our
+            data transformation logic to ensure that Power BI reports accurately
+            reflect the intended metrics and KPIs…
           </p>
         </div>
       </div>
